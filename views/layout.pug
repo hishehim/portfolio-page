@@ -3,5 +3,12 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/jquery-3.1.1.min.js')
+    script(src='/javascripts/scripts.js')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(charset='utf-8')
   body
-    block content
+    .header.shadow-1
+      span.title SUPERLONGTITLESUPERLONGTITLESUPERLONGTITLESUPERLONGTITLESUPERLONGTITLESUPERLONGTITLESUPERLONGTITLE
+    .container-wrapper
+      block content

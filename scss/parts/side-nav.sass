@@ -1,0 +1,26 @@
+
+.side-nav-static
+  height: 100%
+  width: $side-nav-width
+  float: left
+  overflow-y: auto
+  box-sizing: border-box
+
+.nav-cell
+  z-index: 2
+  display: block
+  padding: $default-padding
+  i
+    margin-right: ($horizontal-padding/2)
+  &.link
+    display: block
+    text-decoration: none
+    color: $primary-text
+    &:hover
+      background: $hover-highlight
+
+.nav-cell-icon-row
+  padding: 0 $horizontal-padding
+  a.icon-link
+    display: inline-block
+    padding: $vertical-padding/2 $horizontal-padding/2
