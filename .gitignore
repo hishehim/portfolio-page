@@ -19,6 +19,9 @@ coverage
 # node-waf configuration
 .lock-wscript
 
+# vscode debug file
+.vscode
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -28,3 +31,4 @@ node_modules
 
 # Debug log from npm
 npm-debug.log
+
