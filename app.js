@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var projects = require('./routes/projects');
+// var projects = require('./routes/projects');
 
 var app = express();
 
@@ -35,7 +35,7 @@ app.use(require('express-autoprefixer')({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/projects', projects);
+// app.use('/projects', projects);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
