@@ -20,7 +20,7 @@ coverage
 .lock-wscript
 
 # vscode debug file
-.vscode
+.vscode/
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
